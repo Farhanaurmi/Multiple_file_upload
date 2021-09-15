@@ -11,6 +11,4 @@ class Posts(models.Model):
     file_content = models.ManyToManyField(ImgFile, related_name='file_content', blank=True, null=True)
     
 
-    class Meta:
 
-        verbose_name_plural = ('Posts')
